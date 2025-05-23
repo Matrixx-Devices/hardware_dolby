@@ -14,6 +14,12 @@
 # limitations under the License.
 #
 
+# Broken build flags
+BUILD_BROKEN_DUP_RULES = true
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+BUILD_BROKEN_PREBUILT_ELF_FILES := true
+RELAX_USES_LIBRARY_CHECK := true
+
 # Dolby path
 DOLBY_PATH := hardware/dolby
 
